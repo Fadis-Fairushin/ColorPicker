@@ -43,8 +43,7 @@
             this.textBoxMax.Location = new System.Drawing.Point(0, 0);
             this.textBoxMax.Multiline = true;
             this.textBoxMax.Name = "textBoxMax";
-            this.textBoxMax.ReadOnly = true;
-            this.textBoxMax.Size = new System.Drawing.Size(713, 302);
+            this.textBoxMax.Size = new System.Drawing.Size(713, 315);
             this.textBoxMax.TabIndex = 0;
             this.textBoxMax.Text = resources.GetString("textBoxMax.Text");
             this.textBoxMax.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -54,11 +53,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Desktop;
-            this.ClientSize = new System.Drawing.Size(713, 302);
+            this.ClientSize = new System.Drawing.Size(713, 315);
             this.Controls.Add(this.textBoxMax);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Help";
-            this.Text = "Help";
+            this.Text = "Помощь";
             this.Load += new System.EventHandler(this.Help_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

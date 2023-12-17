@@ -119,18 +119,19 @@
   </resheader>
   <data name="textBoxMax.Text" xml:space="preserve">
     <value>
-By clicking on the "start scanning colors" button, your computer can work
-a little slower, don't worry, it means the program is collecting
-information under the mouse cursor.
-You can start assembling and stop assembling by right-clicking on this button or
-by pressing spacebar. The space bar is useful because you can start collecting information about
-color by moving the cursor to it, after which by pressing the space bar again you will stop
-collect information and the screen will show information about the color you need.
-By clicking on the color area (panel) below, you can open the color selection window.
+Нажав кнопку «Начать сканирование цветов», ваш компьютер может работать
+немного медленнее, не волнуйтесь, это значит, что программа собирает
+информацию под курсором мыши.
+Начать сборку и остановить сборку можно, щелкнув правой кнопкой мыши по этой кнопке 
+или нажав пробел. Пробел полезен, потому что вы можете начать 
+собирать информацию о цвет, подведя к нему курсор, после чего повторным нажатием 
+пробела вы остановите соберите информацию и на экране появится информация 
+о нужном вам цвете. Нажав на область цвета (панель) ниже, 
+можно открыть окно выбора цвета.
 
- /\_/\
-(o.o)
- &gt; ^ &lt;
-meow</value>
+ /\__/\
+ ( о . о )
+ &gt;  ^  &lt;
+ [=== MEOW ===]</value>
   </data>
 </root>

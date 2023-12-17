@@ -80,7 +80,7 @@
             this.btnStartAndStop.Name = "btnStartAndStop";
             this.btnStartAndStop.Size = new System.Drawing.Size(427, 35);
             this.btnStartAndStop.TabIndex = 1;
-            this.btnStartAndStop.Text = "Start scanning flowers";
+            this.btnStartAndStop.Text = "Старт сканирования цветов";
             this.btnStartAndStop.UseVisualStyleBackColor = false;
             this.btnStartAndStop.Click += new System.EventHandler(this.btnStartAndStop_Click);
             // 
@@ -91,9 +91,9 @@
             this.lblCoordinateX.ForeColor = System.Drawing.SystemColors.Control;
             this.lblCoordinateX.Location = new System.Drawing.Point(12, 95);
             this.lblCoordinateX.Name = "lblCoordinateX";
-            this.lblCoordinateX.Size = new System.Drawing.Size(165, 24);
+            this.lblCoordinateX.Size = new System.Drawing.Size(167, 24);
             this.lblCoordinateX.TabIndex = 3;
-            this.lblCoordinateX.Text = "Coordinates by X: ";
+            this.lblCoordinateX.Text = "Кординаты по X: ";
             // 
             // lblCoordinateY
             // 
@@ -102,9 +102,9 @@
             this.lblCoordinateY.ForeColor = System.Drawing.SystemColors.Control;
             this.lblCoordinateY.Location = new System.Drawing.Point(12, 127);
             this.lblCoordinateY.Name = "lblCoordinateY";
-            this.lblCoordinateY.Size = new System.Drawing.Size(163, 24);
+            this.lblCoordinateY.Size = new System.Drawing.Size(165, 24);
             this.lblCoordinateY.TabIndex = 4;
-            this.lblCoordinateY.Text = "Coordinates by Y: ";
+            this.lblCoordinateY.Text = "Кординаты по Y: ";
             // 
             // lblColorRGB
             // 
@@ -113,9 +113,9 @@
             this.lblColorRGB.ForeColor = System.Drawing.SystemColors.Control;
             this.lblColorRGB.Location = new System.Drawing.Point(12, 159);
             this.lblColorRGB.Name = "lblColorRGB";
-            this.lblColorRGB.Size = new System.Drawing.Size(116, 24);
+            this.lblColorRGB.Size = new System.Drawing.Size(115, 24);
             this.lblColorRGB.TabIndex = 5;
-            this.lblColorRGB.Text = "Color (RGB):";
+            this.lblColorRGB.Text = "Цвет (RGB):";
             // 
             // lblColorHEX
             // 
@@ -124,9 +124,9 @@
             this.lblColorHEX.ForeColor = System.Drawing.SystemColors.Control;
             this.lblColorHEX.Location = new System.Drawing.Point(12, 191);
             this.lblColorHEX.Name = "lblColorHEX";
-            this.lblColorHEX.Size = new System.Drawing.Size(118, 24);
+            this.lblColorHEX.Size = new System.Drawing.Size(117, 24);
             this.lblColorHEX.TabIndex = 6;
-            this.lblColorHEX.Text = "Color (HEX):";
+            this.lblColorHEX.Text = "Цвет (HEX):";
             // 
             // menuStrip1
             // 
@@ -150,16 +150,16 @@
             this.светлаяToolStripMenuItem});
             this.темаToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
             this.темаToolStripMenuItem.Name = "темаToolStripMenuItem";
-            this.темаToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
-            this.темаToolStripMenuItem.Text = "Theme";
+            this.темаToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.темаToolStripMenuItem.Text = "Тема";
             // 
             // темнаяToolStripMenuItem
             // 
             this.темнаяToolStripMenuItem.BackColor = System.Drawing.SystemColors.Desktop;
             this.темнаяToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
             this.темнаяToolStripMenuItem.Name = "темнаяToolStripMenuItem";
-            this.темнаяToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
-            this.темнаяToolStripMenuItem.Text = "Black";
+            this.темнаяToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.темнаяToolStripMenuItem.Text = "Темный";
             this.темнаяToolStripMenuItem.Click += new System.EventHandler(this.темнаяToolStripMenuItem_Click);
             // 
             // светлаяToolStripMenuItem
@@ -167,31 +167,31 @@
             this.светлаяToolStripMenuItem.BackColor = System.Drawing.SystemColors.Desktop;
             this.светлаяToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
             this.светлаяToolStripMenuItem.Name = "светлаяToolStripMenuItem";
-            this.светлаяToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
-            this.светлаяToolStripMenuItem.Text = "Light";
+            this.светлаяToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.светлаяToolStripMenuItem.Text = "Светлый";
             this.светлаяToolStripMenuItem.Click += new System.EventHandler(this.светлаяToolStripMenuItem_Click);
             // 
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
-            this.выходToolStripMenuItem.Text = "Exit";
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.выходToolStripMenuItem.Text = "Выход";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
             // разработчикТайлогсToolStripMenuItem
             // 
             this.разработчикТайлогсToolStripMenuItem.ForeColor = System.Drawing.Color.DarkOrchid;
             this.разработчикТайлогсToolStripMenuItem.Name = "разработчикТайлогсToolStripMenuItem";
-            this.разработчикТайлогсToolStripMenuItem.Size = new System.Drawing.Size(114, 20);
-            this.разработчикТайлогсToolStripMenuItem.Text = "Developer: Tailogs";
+            this.разработчикТайлогсToolStripMenuItem.Size = new System.Drawing.Size(131, 20);
+            this.разработчикТайлогсToolStripMenuItem.Text = "Разработчик: Tailogs";
             // 
             // справкаToolStripMenuItem
             // 
             this.справкаToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
             this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
-            this.справкаToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.справкаToolStripMenuItem.Text = "Help";
+            this.справкаToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
+            this.справкаToolStripMenuItem.Text = "Помощь";
             this.справкаToolStripMenuItem.Click += new System.EventHandler(this.справкаToolStripMenuItem_Click);
             // 
             // textBoxCoordinateX
@@ -253,7 +253,7 @@
             this.btnCoordinateX.Name = "btnCoordinateX";
             this.btnCoordinateX.Size = new System.Drawing.Size(111, 29);
             this.btnCoordinateX.TabIndex = 12;
-            this.btnCoordinateX.Text = "Copy";
+            this.btnCoordinateX.Text = "Копировать";
             this.btnCoordinateX.UseVisualStyleBackColor = false;
             this.btnCoordinateX.Click += new System.EventHandler(this.btnCoordinateX_Click);
             this.btnCoordinateX.MouseEnter += new System.EventHandler(this.btnCoordinateX_MouseEnter);
@@ -270,7 +270,7 @@
             this.btnCoordinateY.Name = "btnCoordinateY";
             this.btnCoordinateY.Size = new System.Drawing.Size(111, 29);
             this.btnCoordinateY.TabIndex = 13;
-            this.btnCoordinateY.Text = "Copy";
+            this.btnCoordinateY.Text = "Копировать";
             this.btnCoordinateY.UseVisualStyleBackColor = false;
             this.btnCoordinateY.Click += new System.EventHandler(this.btnCoordinateY_Click);
             this.btnCoordinateY.MouseEnter += new System.EventHandler(this.btnCoordinateY_MouseEnter);
@@ -287,7 +287,7 @@
             this.btnColorRGB.Name = "btnColorRGB";
             this.btnColorRGB.Size = new System.Drawing.Size(111, 29);
             this.btnColorRGB.TabIndex = 14;
-            this.btnColorRGB.Text = "Copy";
+            this.btnColorRGB.Text = "Копировать";
             this.btnColorRGB.UseVisualStyleBackColor = false;
             this.btnColorRGB.Click += new System.EventHandler(this.btnColorRGB_Click);
             this.btnColorRGB.MouseEnter += new System.EventHandler(this.btnColorRGB_MouseEnter);
@@ -304,7 +304,7 @@
             this.btnColorHEX.Name = "btnColorHEX";
             this.btnColorHEX.Size = new System.Drawing.Size(111, 29);
             this.btnColorHEX.TabIndex = 15;
-            this.btnColorHEX.Text = "Copy";
+            this.btnColorHEX.Text = "Копировать";
             this.btnColorHEX.UseVisualStyleBackColor = false;
             this.btnColorHEX.Click += new System.EventHandler(this.brnColorHEX_Click);
             this.btnColorHEX.MouseEnter += new System.EventHandler(this.btnColorHEX_MouseEnter);
