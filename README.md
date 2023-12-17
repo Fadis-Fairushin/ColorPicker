@@ -1,26 +1,23 @@
-# Color selection
+# ColorPicker
 
 ![Description text](icon.ico)
 
-ColorPicker - a program that allows you to get the color of a pixel located under the display.
+ColorPicker — программа, позволяющая получить цвет пикселя, расположенного под дисплеем.
 
 ![Description text](ColorPicker.jpg)
 
-Already knows how to:
+Уже умеет:
+- [x] Получение RGB и HEX цветов пикселя;
+- [x] Копирование значений с помощью кнопок;
+- [x] Темная/Светлая тема и красивый интерфейс;
+- [x] Возможность предварительного просмотра цветов на панели ниже;
+- [x] Получение координат;
+- [x] Возможность нажатием на пробел замараживать и размораживанть информацию о цвете пикселей;
+- [x] Встроенная мини-помощь;
+- [x] Возможность выбора цвета нажатием на нижнюю панель (цветной блок)
 
-- [x] Obtaining RGB and HEX colors of a pixel;
-- [x] Copy values ​​using buttons;
-- [x] Dark/Light theme and beautiful interface;
-- [x] Ability to preview colors in the panel below;
-- [x] Obtaining the coordinates;
-- [x] Ability to compress spaces to freeze and unfreeze pixel color information;
-- [x] Built-in mini-help;
-- [x] Ability to select color by clicking on the bottom panel (color block)
+В будущем будет реализовано:
+- Я не знаю что реализовывать ещё
 
-In the future it will be implemented:
-
-- [ ] Leaving after closing in tray.
-
-Necessary:
-
-- Availability of Net (But many people already have it unknowingly installed)
+Необходимый:
+- Наличие Net (Но у многих он уже установлен по незнанию)
